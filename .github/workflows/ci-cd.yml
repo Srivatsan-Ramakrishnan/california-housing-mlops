@@ -45,6 +45,6 @@ jobs:
         uses: codecov/codecov-action@v4
         with:
           token: \${{ secrets.CODECOV_TOKEN }}
-          slug: gsivakumar99/california-housing-mlops
+          slug: Srivatsan-Ramakrishnan/california-housing-mlops
           file: ./coverage.xml
           fail_ci_if_error: true
